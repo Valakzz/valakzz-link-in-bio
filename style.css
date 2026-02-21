@@ -1,0 +1,83 @@
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3737;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#fotoperfil {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #363535;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+#nomeprincipal {
+    color: aliceblue;
+}
+
+.bola {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;  
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center; 
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bola:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.github { background: #333; }
+.linkedin { background: #0077b5; }
+.instagram { background: #e1306c; }
+.tiktok { background: #000; }
+
+.spotify {
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#nomefooter {
+    color: #edeeee;
+    justify-content: center;
+    align-items: center;
+}
